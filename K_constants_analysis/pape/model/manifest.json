@@ -1,0 +1,26 @@
+{
+  "schema_version": "rise2_apigraph_v2",
+  "fresh_training": true,
+  "warm_start": false,
+  "previous_models_loaded": false,
+  "synthetic_fixture": false,
+  "train_year": "2012",
+  "n_train": 30533,
+  "training_data_hash": "0943985e072fb00bb1610cf8ea4e837c53bfc4a2203ab30bf29fb75d6be78aa9",
+  "tree_count": 536,
+  "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+  "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+  "feature_schema_hash": "4fe2c9fbf1bf289aced96c159905e80aa05fad759a61323b811b8c0082417cca",
+  "created_at": "2026-11-02T14:15:22.062239+00:00",
+  "config_hash": "e32aa8c5b44f7d7a41d61adf5822c8285813c0b2e28251246055bc2b5fd30b6c",
+  "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+  "seed": 11,
+  "packages": {
+    "xgboost": "3.4.1",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1"
+  },
+  "round_trip_max_absolute_diff": 0.0,
+  "duration_seconds": 17.811604300048202,
+  "internal_holdout_is_not_temporal_validation": true
+}

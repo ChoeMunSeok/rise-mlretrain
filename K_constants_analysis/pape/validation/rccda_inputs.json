@@ -1,0 +1,4020 @@
+{
+  "schema_version": "pape_gain_rccda_monthly_v1",
+  "records": [
+    {
+      "record_id": "6562866bb45425f78dcd91bd928c5a7636a86be40fc03767c30bfb36b17ada0a",
+      "target_chunk_id": "apigraph:validation:monthly:2015-01:1346a81a1e303cb7b825",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 266.633521009407,
+        "estimated_fp": 25.36647899059303,
+        "estimated_fn": 166.15613064733733,
+        "estimated_tn": 4472.843869352662,
+        "estimated_recall": 0.6160810915619589,
+        "estimated_f1": 0.7357542161368575,
+        "estimated_accuracy": 0.9611594788809712,
+        "estimated_loss": 191.52260963793037,
+        "estimated_loss_per_app": 0.03884052111902867,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 0,
+        "seed": 11,
+        "observed_month": "2015-01",
+        "decision_available_from_month": "2015-02",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4931,
+        "n_source": 107053,
+        "member_hash": "3c7a4b74f5a4817d5415fe9850b6f4b77e185941dab149daae72fde34ee2597e",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "86ea745cbb283ee1d0cb500c622ba84d0cdce2d663b2f5140dddfd89eb48088d",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:15:42.669316+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "086833a01eddacd4638fe1c519eae426e79370797b6e77e751c62c78617f5528",
+      "target_chunk_id": "apigraph:validation:monthly:2015-01:1346a81a1e303cb7b825",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 267.7879610569629,
+        "estimated_fp": 24.212038943037108,
+        "estimated_fn": 168.26049318721567,
+        "estimated_tn": 4470.7395068127835,
+        "estimated_recall": 0.6141243213925187,
+        "estimated_f1": 0.7356322494633031,
+        "estimated_accuracy": 0.9609668359095005,
+        "estimated_loss": 192.47253213025277,
+        "estimated_loss_per_app": 0.03903316409049945,
+        "dre_auc": 0.7258475491120121,
+        "ess_ratio": 0.34978536597418125,
+        "max_weight": 20.0,
+        "clip_fraction": 0.0029798324194557834
+      },
+      "provenance": {
+        "csv_row_index": 1,
+        "seed": 11,
+        "observed_month": "2015-01",
+        "decision_available_from_month": "2015-02",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4931,
+        "n_source": 107053,
+        "member_hash": "3c7a4b74f5a4817d5415fe9850b6f4b77e185941dab149daae72fde34ee2597e",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "16166f7a268a0c5203637300d6c9dcad6671778f2b2bde03df3bf67a8cbd3cb2",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:01.608100+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "df3034c8460debd3612c85b2cac4321c78e7e0f1415d37cf79a9274c0adf3727",
+      "target_chunk_id": "apigraph:validation:monthly:2015-01:1346a81a1e303cb7b825",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 266.633521009407,
+        "estimated_fp": 25.36647899059303,
+        "estimated_fn": 166.15613064733733,
+        "estimated_tn": 4472.843869352662,
+        "estimated_recall": 0.6160810915619589,
+        "estimated_f1": 0.7357542161368575,
+        "estimated_accuracy": 0.9611594788809712,
+        "estimated_loss": 191.52260963793037,
+        "estimated_loss_per_app": 0.03884052111902867,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 2,
+        "seed": 23,
+        "observed_month": "2015-01",
+        "decision_available_from_month": "2015-02",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4931,
+        "n_source": 107053,
+        "member_hash": "3c7a4b74f5a4817d5415fe9850b6f4b77e185941dab149daae72fde34ee2597e",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "f0881218ecc652ecfc9229202522ff006863a76ff8eae83b47c134111f85192e",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:15:42.774392+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "38c2d664af43ceb512d0b198af269e02c7d020535f5b177d17b26bc8ecfe3ee0",
+      "target_chunk_id": "apigraph:validation:monthly:2015-01:1346a81a1e303cb7b825",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 267.922313576757,
+        "estimated_fp": 24.07768642324296,
+        "estimated_fn": 167.44819193739738,
+        "estimated_tn": 4471.5518080626025,
+        "estimated_recall": 0.6153892148949134,
+        "estimated_f1": 0.7366873183491858,
+        "estimated_accuracy": 0.9611588159885134,
+        "estimated_loss": 191.52587836064035,
+        "estimated_loss_per_app": 0.03884118401148658,
+        "dre_auc": 0.7327816467754102,
+        "ess_ratio": 0.34777878420598024,
+        "max_weight": 20.0,
+        "clip_fraction": 0.003316114447983709
+      },
+      "provenance": {
+        "csv_row_index": 3,
+        "seed": 23,
+        "observed_month": "2015-01",
+        "decision_available_from_month": "2015-02",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4931,
+        "n_source": 107053,
+        "member_hash": "3c7a4b74f5a4817d5415fe9850b6f4b77e185941dab149daae72fde34ee2597e",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "cf6adf78e97dd96e3b58e021f40102efce3b00c2360f2b57d3495477d413d2e7",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:02.425830+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "9c8cc37a03fb8574dd4075365e0571f4fa7de452a92642c62e766af67a7b87ba",
+      "target_chunk_id": "apigraph:validation:monthly:2015-01:1346a81a1e303cb7b825",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 266.633521009407,
+        "estimated_fp": 25.36647899059303,
+        "estimated_fn": 166.15613064733733,
+        "estimated_tn": 4472.843869352662,
+        "estimated_recall": 0.6160810915619589,
+        "estimated_f1": 0.7357542161368575,
+        "estimated_accuracy": 0.9611594788809712,
+        "estimated_loss": 191.52260963793037,
+        "estimated_loss_per_app": 0.03884052111902867,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 4,
+        "seed": 37,
+        "observed_month": "2015-01",
+        "decision_available_from_month": "2015-02",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4931,
+        "n_source": 107053,
+        "member_hash": "3c7a4b74f5a4817d5415fe9850b6f4b77e185941dab149daae72fde34ee2597e",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "b3fea93db9d3f49675e7f9342786c2cd39b524989830a4b545498dcf10f56f07",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:15:47.302348+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "dbef042b6d9811439fa9c11a66091613114f77eb0136df5c701a15e4bbdcbcbd",
+      "target_chunk_id": "apigraph:validation:monthly:2015-01:1346a81a1e303cb7b825",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 267.2315116152022,
+        "estimated_fp": 24.76848838479779,
+        "estimated_fn": 169.66031379727448,
+        "estimated_tn": 4469.339686202726,
+        "estimated_recall": 0.6116651676027688,
+        "estimated_f1": 0.7332542423945475,
+        "estimated_accuracy": 0.9605701070407479,
+        "estimated_loss": 194.42880218207227,
+        "estimated_loss_per_app": 0.03942989295925214,
+        "dre_auc": 0.7325800553931708,
+        "ess_ratio": 0.2877739722207691,
+        "max_weight": 20.0,
+        "clip_fraction": 0.002195174352890624
+      },
+      "provenance": {
+        "csv_row_index": 5,
+        "seed": 37,
+        "observed_month": "2015-01",
+        "decision_available_from_month": "2015-02",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4931,
+        "n_source": 107053,
+        "member_hash": "3c7a4b74f5a4817d5415fe9850b6f4b77e185941dab149daae72fde34ee2597e",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "e21d6a5a107ab873edfc902ffcfeb95ec6ecfe70b7443e92536c280e30c24e12",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:07.254109+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "fed3acfa260efd0afc60d0b740a936d3dbd04f9cc28f7d41a0a4952f0c7213c5",
+      "target_chunk_id": "apigraph:validation:monthly:2015-02:00249bd1f67da13142b7",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 305.1196473518503,
+        "estimated_fp": 29.88035264814967,
+        "estimated_fn": 169.90118244355466,
+        "estimated_tn": 4449.098817556445,
+        "estimated_recall": 0.6423289847800309,
+        "estimated_f1": 0.7533624719969667,
+        "estimated_accuracy": 0.9596726816528655,
+        "estimated_loss": 199.78153509170434,
+        "estimated_loss_per_app": 0.0403273183471345,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 6,
+        "seed": 11,
+        "observed_month": "2015-02",
+        "decision_available_from_month": "2015-03",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4954,
+        "n_source": 107053,
+        "member_hash": "23c19a59826dd248c07c166695a6b58db60fb07981ccb529a57ec5306cec2e80",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "57ab42194212d11788187a7f60a14aaa0848d052d89999752bacea31143932c8",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:15:51.911522+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "794b7a4b3437540fa599d1b9cdf199467d1235df55e57f4921842723bb598848",
+      "target_chunk_id": "apigraph:validation:monthly:2015-02:00249bd1f67da13142b7",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 306.54915735277393,
+        "estimated_fp": 28.450842647226104,
+        "estimated_fn": 168.7455367840144,
+        "estimated_tn": 4450.254463215986,
+        "estimated_recall": 0.6449665042222206,
+        "estimated_f1": 0.7566362203058543,
+        "estimated_accuracy": 0.9601945136392328,
+        "estimated_loss": 197.1963794312405,
+        "estimated_loss_per_app": 0.03980548636076716,
+        "dre_auc": 0.741949048198942,
+        "ess_ratio": 0.3121547569001537,
+        "max_weight": 20.0,
+        "clip_fraction": 0.003344137950361036
+      },
+      "provenance": {
+        "csv_row_index": 7,
+        "seed": 11,
+        "observed_month": "2015-02",
+        "decision_available_from_month": "2015-03",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4954,
+        "n_source": 107053,
+        "member_hash": "23c19a59826dd248c07c166695a6b58db60fb07981ccb529a57ec5306cec2e80",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "2c2247fc38472159f9772b6901db23155396ca59e1344eff13cb7868f76de646",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:14.464884+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "d04fdd709cc63cbfbd931c7e9b3a717d94654916f2584ecdf8516ac5423f568d",
+      "target_chunk_id": "apigraph:validation:monthly:2015-02:00249bd1f67da13142b7",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 305.1196473518503,
+        "estimated_fp": 29.88035264814967,
+        "estimated_fn": 169.90118244355466,
+        "estimated_tn": 4449.098817556445,
+        "estimated_recall": 0.6423289847800309,
+        "estimated_f1": 0.7533624719969667,
+        "estimated_accuracy": 0.9596726816528655,
+        "estimated_loss": 199.78153509170434,
+        "estimated_loss_per_app": 0.0403273183471345,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 8,
+        "seed": 23,
+        "observed_month": "2015-02",
+        "decision_available_from_month": "2015-03",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4954,
+        "n_source": 107053,
+        "member_hash": "23c19a59826dd248c07c166695a6b58db60fb07981ccb529a57ec5306cec2e80",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "d7efc3d0a0921b4b7714f0993c97b45e578b8d19441ff6931cab8012a55e37ee",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:06.326290+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "d7816647f0857248950c8d5ce38f4caaf1c4d04230aa9a792e4e04baa6279583",
+      "target_chunk_id": "apigraph:validation:monthly:2015-02:00249bd1f67da13142b7",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 308.0726521321249,
+        "estimated_fp": 26.927347867875085,
+        "estimated_fn": 162.93939565578938,
+        "estimated_tn": 4456.060604344211,
+        "estimated_recall": 0.654065333528035,
+        "estimated_f1": 0.7644368418006278,
+        "estimated_accuracy": 0.9616740525789937,
+        "estimated_loss": 189.86674352366447,
+        "estimated_loss_per_app": 0.03832594742100615,
+        "dre_auc": 0.7450997723038008,
+        "ess_ratio": 0.30779895120875267,
+        "max_weight": 20.0,
+        "clip_fraction": 0.003390843787656581
+      },
+      "provenance": {
+        "csv_row_index": 9,
+        "seed": 23,
+        "observed_month": "2015-02",
+        "decision_available_from_month": "2015-03",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4954,
+        "n_source": 107053,
+        "member_hash": "23c19a59826dd248c07c166695a6b58db60fb07981ccb529a57ec5306cec2e80",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "041256c0159847b77c123326e439397f5798e07df515ed4541d3d72d2ca8ec89",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:25.179193+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "cffb43e6d16d8c2f46980d315fab37679e1b2aa43d30777e5b0aaf8b3171e90e",
+      "target_chunk_id": "apigraph:validation:monthly:2015-02:00249bd1f67da13142b7",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 305.1196473518503,
+        "estimated_fp": 29.88035264814967,
+        "estimated_fn": 169.90118244355466,
+        "estimated_tn": 4449.098817556445,
+        "estimated_recall": 0.6423289847800309,
+        "estimated_f1": 0.7533624719969667,
+        "estimated_accuracy": 0.9596726816528655,
+        "estimated_loss": 199.78153509170434,
+        "estimated_loss_per_app": 0.0403273183471345,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 10,
+        "seed": 37,
+        "observed_month": "2015-02",
+        "decision_available_from_month": "2015-03",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4954,
+        "n_source": 107053,
+        "member_hash": "23c19a59826dd248c07c166695a6b58db60fb07981ccb529a57ec5306cec2e80",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "4e672e29558d1fdcadad392573a0534a9f529a8d8c46f9e4500ed8cb304ce3b8",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:11.023950+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "dcf547eb9be9e09a909ad44a8962785b12f0a750453e44323a62752a86f7fc2e",
+      "target_chunk_id": "apigraph:validation:monthly:2015-02:00249bd1f67da13142b7",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 305.11088313943617,
+        "estimated_fp": 29.88911686056382,
+        "estimated_fn": 162.7667782440492,
+        "estimated_tn": 4456.233221755951,
+        "estimated_recall": 0.652116799586546,
+        "estimated_f1": 0.7600432738748312,
+        "estimated_accuracy": 0.961111042570728,
+        "estimated_loss": 192.65589510461302,
+        "estimated_loss_per_app": 0.038888957429271905,
+        "dre_auc": 0.7392687819035224,
+        "ess_ratio": 0.3162331437365033,
+        "max_weight": 20.0,
+        "clip_fraction": 0.004792018906522937
+      },
+      "provenance": {
+        "csv_row_index": 11,
+        "seed": 37,
+        "observed_month": "2015-02",
+        "decision_available_from_month": "2015-03",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4954,
+        "n_source": 107053,
+        "member_hash": "23c19a59826dd248c07c166695a6b58db60fb07981ccb529a57ec5306cec2e80",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "33886c78e0425c37d775b751bb19c7b9544fb2e0f03ee4fb170fcef456aea279",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:30.022981+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "93c715db665e5858f553757b09e657f981c18a9c728dbdfd87e67457b6ef717f",
+      "target_chunk_id": "apigraph:validation:monthly:2015-03:4b38e35e05c0572a7772",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 230.20123268692453,
+        "estimated_fp": 30.79876731307549,
+        "estimated_fn": 207.14778782753447,
+        "estimated_tn": 4470.852212172465,
+        "estimated_recall": 0.5263558894361671,
+        "estimated_f1": 0.659272730181078,
+        "estimated_accuracy": 0.9518229287020429,
+        "estimated_loss": 237.94655514060997,
+        "estimated_loss_per_app": 0.04817707129795707,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 12,
+        "seed": 11,
+        "observed_month": "2015-03",
+        "decision_available_from_month": "2015-04",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4939,
+        "n_source": 107053,
+        "member_hash": "07efa466efc3e2e3301e680a2e669e4c22ab7e5e372568cb3b800aef2c8f2242",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "a7b114daf0b2871ec2e20cd38919b7bb8d9f65855adae2e32c21ab06966bd6d5",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:15.579104+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "7ab4b9ae23a567defdccebf2eca4e78cec00f667430d2e899723dfa96f646d1d",
+      "target_chunk_id": "apigraph:validation:monthly:2015-03:4b38e35e05c0572a7772",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 233.77250449681105,
+        "estimated_fp": 27.227495503188937,
+        "estimated_fn": 203.3900843688796,
+        "estimated_tn": 4474.609915631121,
+        "estimated_recall": 0.5347495656098626,
+        "estimated_f1": 0.6696792644722565,
+        "estimated_accuracy": 0.9533068273188765,
+        "estimated_loss": 230.61757987206855,
+        "estimated_loss_per_app": 0.04669317268112341,
+        "dre_auc": 0.7915859049263121,
+        "ess_ratio": 0.27035168055241343,
+        "max_weight": 20.0,
+        "clip_fraction": 0.006473429049162564
+      },
+      "provenance": {
+        "csv_row_index": 13,
+        "seed": 11,
+        "observed_month": "2015-03",
+        "decision_available_from_month": "2015-04",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4939,
+        "n_source": 107053,
+        "member_hash": "07efa466efc3e2e3301e680a2e669e4c22ab7e5e372568cb3b800aef2c8f2242",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "940d50200c3a089878e105493498153a8f19f688c5fa564e5c96f7096a151f9e",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:37.053663+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "de2c5186898ca40cda645e791b39fc592061593538c355869dc4e5b96e7c4366",
+      "target_chunk_id": "apigraph:validation:monthly:2015-03:4b38e35e05c0572a7772",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 230.20123268692453,
+        "estimated_fp": 30.79876731307549,
+        "estimated_fn": 207.14778782753447,
+        "estimated_tn": 4470.852212172465,
+        "estimated_recall": 0.5263558894361671,
+        "estimated_f1": 0.659272730181078,
+        "estimated_accuracy": 0.9518229287020429,
+        "estimated_loss": 237.94655514060997,
+        "estimated_loss_per_app": 0.04817707129795707,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 14,
+        "seed": 23,
+        "observed_month": "2015-03",
+        "decision_available_from_month": "2015-04",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4939,
+        "n_source": 107053,
+        "member_hash": "07efa466efc3e2e3301e680a2e669e4c22ab7e5e372568cb3b800aef2c8f2242",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "7ae2a0811d51eea685cd84ae8414e535f9f0abd37d3647e780e06a3747cb65c7",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:20.123626+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "a7b3bca67ec0d11daf468c872caaddbddc637973aa2983bf78cec8beb3672442",
+      "target_chunk_id": "apigraph:validation:monthly:2015-03:4b38e35e05c0572a7772",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 233.93494179781732,
+        "estimated_fp": 27.065058202182698,
+        "estimated_fn": 204.05807991437416,
+        "estimated_tn": 4473.941920085626,
+        "estimated_recall": 0.5341065501074073,
+        "estimated_f1": 0.6693484327634374,
+        "estimated_accuracy": 0.9532044668725335,
+        "estimated_loss": 231.12313811655685,
+        "estimated_loss_per_app": 0.04679553312746646,
+        "dre_auc": 0.7857945744247328,
+        "ess_ratio": 0.24246112458169106,
+        "max_weight": 20.0,
+        "clip_fraction": 0.0063426527047350375
+      },
+      "provenance": {
+        "csv_row_index": 15,
+        "seed": 23,
+        "observed_month": "2015-03",
+        "decision_available_from_month": "2015-04",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4939,
+        "n_source": 107053,
+        "member_hash": "07efa466efc3e2e3301e680a2e669e4c22ab7e5e372568cb3b800aef2c8f2242",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "84b5d1fe9a8c174b43f6fa8eedf72e58bacad74f82db66928e39a943817fd205",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:41.882902+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "5728859c3dc7c81e180435636a517d9f140277231b907e897de046f5147cf815",
+      "target_chunk_id": "apigraph:validation:monthly:2015-03:4b38e35e05c0572a7772",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 230.20123268692453,
+        "estimated_fp": 30.79876731307549,
+        "estimated_fn": 207.14778782753447,
+        "estimated_tn": 4470.852212172465,
+        "estimated_recall": 0.5263558894361671,
+        "estimated_f1": 0.659272730181078,
+        "estimated_accuracy": 0.9518229287020429,
+        "estimated_loss": 237.94655514060997,
+        "estimated_loss_per_app": 0.04817707129795707,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 16,
+        "seed": 37,
+        "observed_month": "2015-03",
+        "decision_available_from_month": "2015-04",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4939,
+        "n_source": 107053,
+        "member_hash": "07efa466efc3e2e3301e680a2e669e4c22ab7e5e372568cb3b800aef2c8f2242",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "ae10db5010e159b9e17cb39c58ed99be0a3e81f97bd0d56f7e6159f52c223733",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:29.837753+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "1be8bcd17b5881394474ce63e62adaa4f561656156332d079d5912c8a44b8836",
+      "target_chunk_id": "apigraph:validation:monthly:2015-03:4b38e35e05c0572a7772",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 235.29973922659204,
+        "estimated_fp": 25.700260773407948,
+        "estimated_fn": 201.75362881568188,
+        "estimated_tn": 4476.2463711843175,
+        "estimated_recall": 0.5383775905459507,
+        "estimated_f1": 0.6741597419306267,
+        "estimated_accuracy": 0.9539473801196418,
+        "estimated_loss": 227.45388958908984,
+        "estimated_loss_per_app": 0.04605261988035834,
+        "dre_auc": 0.7926323909493723,
+        "ess_ratio": 0.2587048210948642,
+        "max_weight": 20.0,
+        "clip_fraction": 0.006221217527766621
+      },
+      "provenance": {
+        "csv_row_index": 17,
+        "seed": 37,
+        "observed_month": "2015-03",
+        "decision_available_from_month": "2015-04",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4939,
+        "n_source": 107053,
+        "member_hash": "07efa466efc3e2e3301e680a2e669e4c22ab7e5e372568cb3b800aef2c8f2242",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "c552d251ae20f26f5b6f21385f47d51311bee37c44272dd62bfb288f3441546f",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:52.965629+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "5629f0b0533fffd399f91a31ed46b1fd8a5c4dd347afc894d42f42c3057a28b2",
+      "target_chunk_id": "apigraph:validation:monthly:2015-04:0efbb7ec7539c6f5fa41",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 295.85443870025017,
+        "estimated_fp": 28.145561299749843,
+        "estimated_fn": 170.31835090120734,
+        "estimated_tn": 4451.681649098793,
+        "estimated_recall": 0.6346454475671636,
+        "estimated_f1": 0.7488347930823369,
+        "estimated_accuracy": 0.9598738551959246,
+        "estimated_loss": 198.46391220095717,
+        "estimated_loss_per_app": 0.04012614480407545,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 18,
+        "seed": 11,
+        "observed_month": "2015-04",
+        "decision_available_from_month": "2015-05",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "65373775b0a31cca58aebe28ca4a9d6321b3e113d0e8f597a029df4f26aae8a9",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "2ce6d6a3840304837756bde914a6e1debe81179fe8dd61a3b663e0852da5ed7b",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:34.590370+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "1b63c85ef7cd49b275c78528bfd2ca5f4f1b2a77c3c9e1b234606d69e8c5fec5",
+      "target_chunk_id": "apigraph:validation:monthly:2015-04:0efbb7ec7539c6f5fa41",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 299.22793054680335,
+        "estimated_fp": 24.772069453196607,
+        "estimated_fn": 159.55299830671515,
+        "estimated_tn": 4462.447001693285,
+        "estimated_recall": 0.6522239956542354,
+        "estimated_f1": 0.7645253467916252,
+        "estimated_accuracy": 0.9627324974201553,
+        "estimated_loss": 184.32506775991175,
+        "estimated_loss_per_app": 0.03726750257984467,
+        "dre_auc": 0.8005936052232842,
+        "ess_ratio": 0.23759959054383717,
+        "max_weight": 20.0,
+        "clip_fraction": 0.01685146609623271
+      },
+      "provenance": {
+        "csv_row_index": 19,
+        "seed": 11,
+        "observed_month": "2015-04",
+        "decision_available_from_month": "2015-05",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "65373775b0a31cca58aebe28ca4a9d6321b3e113d0e8f597a029df4f26aae8a9",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "dc34cb87cc31027616ba9d898004127c40056e71265e2b11a9d331ea491c29a8",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:57.650100+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "0cfac3a9eb079444608f1eca7cabe7ecf9d5cb908ae26fa84f03b7ee312ec697",
+      "target_chunk_id": "apigraph:validation:monthly:2015-04:0efbb7ec7539c6f5fa41",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 295.85443870025017,
+        "estimated_fp": 28.145561299749843,
+        "estimated_fn": 170.31835090120734,
+        "estimated_tn": 4451.681649098793,
+        "estimated_recall": 0.6346454475671636,
+        "estimated_f1": 0.7488347930823369,
+        "estimated_accuracy": 0.9598738551959246,
+        "estimated_loss": 198.46391220095717,
+        "estimated_loss_per_app": 0.04012614480407545,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 20,
+        "seed": 23,
+        "observed_month": "2015-04",
+        "decision_available_from_month": "2015-05",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "65373775b0a31cca58aebe28ca4a9d6321b3e113d0e8f597a029df4f26aae8a9",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "f1a4abf3627db38046c7d727d07f02b29d8c00c540c47adddafad139495b163c",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:41.783955+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "cf75d3dcaee333355ec295369b8e7018395072ee0fffcc7cd41401008aee1b6e",
+      "target_chunk_id": "apigraph:validation:monthly:2015-04:0efbb7ec7539c6f5fa41",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 300.43806297935464,
+        "estimated_fp": 23.561937020645377,
+        "estimated_fn": 161.2281002793112,
+        "estimated_tn": 4460.771899720688,
+        "estimated_recall": 0.6507690770723062,
+        "estimated_f1": 0.7647982744560199,
+        "estimated_accuracy": 0.9626384882127059,
+        "estimated_loss": 184.7900372999566,
+        "estimated_loss_per_app": 0.0373615117872941,
+        "dre_auc": 0.8069360130961226,
+        "ess_ratio": 0.22713654046423265,
+        "max_weight": 20.0,
+        "clip_fraction": 0.019924710190279582
+      },
+      "provenance": {
+        "csv_row_index": 21,
+        "seed": 23,
+        "observed_month": "2015-04",
+        "decision_available_from_month": "2015-05",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "65373775b0a31cca58aebe28ca4a9d6321b3e113d0e8f597a029df4f26aae8a9",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "b9cf03389cb145befc23abafec5d6a6bab1ca893c876a7c153888d5c36291514",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:04.234677+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "326feed6e8df115a6199eccfcbb1935f8550d05ed7a7fa33dc9fa4c8e1cb8d87",
+      "target_chunk_id": "apigraph:validation:monthly:2015-04:0efbb7ec7539c6f5fa41",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 295.85443870025017,
+        "estimated_fp": 28.145561299749843,
+        "estimated_fn": 170.31835090120734,
+        "estimated_tn": 4451.681649098793,
+        "estimated_recall": 0.6346454475671636,
+        "estimated_f1": 0.7488347930823369,
+        "estimated_accuracy": 0.9598738551959246,
+        "estimated_loss": 198.46391220095717,
+        "estimated_loss_per_app": 0.04012614480407545,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 22,
+        "seed": 37,
+        "observed_month": "2015-04",
+        "decision_available_from_month": "2015-05",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "65373775b0a31cca58aebe28ca4a9d6321b3e113d0e8f597a029df4f26aae8a9",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "b49f5f851a2966eb1a85debcef25e40ba8e5647d837f74266756b3aefb5c7c20",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:46.556274+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "3a34409b5ceb5e201d7fcdb6f552634b1137a624e7b3a0dcff0100ed3ee9da28",
+      "target_chunk_id": "apigraph:validation:monthly:2015-04:0efbb7ec7539c6f5fa41",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 299.39374753760313,
+        "estimated_fp": 24.606252462396867,
+        "estimated_fn": 157.52732564580722,
+        "estimated_tn": 4464.472674354192,
+        "estimated_recall": 0.6552417148364374,
+        "estimated_f1": 0.7667708243987579,
+        "estimated_accuracy": 0.9631755806493724,
+        "estimated_loss": 182.1335781082041,
+        "estimated_loss_per_app": 0.036824419350627594,
+        "dre_auc": 0.8058766193156615,
+        "ess_ratio": 0.2518861091315125,
+        "max_weight": 20.0,
+        "clip_fraction": 0.016739372086723398
+      },
+      "provenance": {
+        "csv_row_index": 23,
+        "seed": 37,
+        "observed_month": "2015-04",
+        "decision_available_from_month": "2015-05",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "65373775b0a31cca58aebe28ca4a9d6321b3e113d0e8f597a029df4f26aae8a9",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "7a30dac2f2c63affc9dd1c6cc376c0eaac0794aa71801dcadac429ba62ec47ce",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:08.411244+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "6e640e2588a16f0ee41d2675d234c0fe48980b626e5a399d3e3a4eaa90941194",
+      "target_chunk_id": "apigraph:validation:monthly:2015-05:d3e326941c55c30b2703",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 278.79263768752645,
+        "estimated_fp": 28.20736231247357,
+        "estimated_fn": 150.74921986740998,
+        "estimated_tn": 4476.25078013259,
+        "estimated_recall": 0.649046496363559,
+        "estimated_f1": 0.7570313481246573,
+        "estimated_accuracy": 0.9637299184880658,
+        "estimated_loss": 178.95658217988355,
+        "estimated_loss_per_app": 0.03627008151193424,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 24,
+        "seed": 11,
+        "observed_month": "2015-05",
+        "decision_available_from_month": "2015-06",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4934,
+        "n_source": 107053,
+        "member_hash": "f2c25a7d33681fe2d7f973b20d8e93abfc071ca95599c5a7d0ddaf22ac5f5bc6",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "81a4c7b03118b2c6215b05522cc416c9df836efaefbf79bd53939625006bce88",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:16:57.686953+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "cfc60c196ebaf4e1ab19252d0396972495f90697467629c166227b1f8d3c1030",
+      "target_chunk_id": "apigraph:validation:monthly:2015-05:d3e326941c55c30b2703",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 279.0610856357479,
+        "estimated_fp": 27.938914364252113,
+        "estimated_fn": 143.01291213592881,
+        "estimated_tn": 4483.987087864071,
+        "estimated_recall": 0.6611662578340293,
+        "estimated_f1": 0.7655219812766966,
+        "estimated_accuracy": 0.9653522848601174,
+        "estimated_loss": 170.9518265001809,
+        "estimated_loss_per_app": 0.034647715139882636,
+        "dre_auc": 0.8054119332883874,
+        "ess_ratio": 0.23459259890285702,
+        "max_weight": 20.0,
+        "clip_fraction": 0.0073141341204823775
+      },
+      "provenance": {
+        "csv_row_index": 25,
+        "seed": 11,
+        "observed_month": "2015-05",
+        "decision_available_from_month": "2015-06",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4934,
+        "n_source": 107053,
+        "member_hash": "f2c25a7d33681fe2d7f973b20d8e93abfc071ca95599c5a7d0ddaf22ac5f5bc6",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "567548c5c42366af838b13e7ec5f4e040637d2422d0b81b2fee8035851b9bda5",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:19.149355+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "04f1166fcf3364080319725f459f1f486bad0c6b1fadf2b280119e0fb6d05f59",
+      "target_chunk_id": "apigraph:validation:monthly:2015-05:d3e326941c55c30b2703",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 278.79263768752645,
+        "estimated_fp": 28.20736231247357,
+        "estimated_fn": 150.74921986740998,
+        "estimated_tn": 4476.25078013259,
+        "estimated_recall": 0.649046496363559,
+        "estimated_f1": 0.7570313481246573,
+        "estimated_accuracy": 0.9637299184880658,
+        "estimated_loss": 178.95658217988355,
+        "estimated_loss_per_app": 0.03627008151193424,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 26,
+        "seed": 23,
+        "observed_month": "2015-05",
+        "decision_available_from_month": "2015-06",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4934,
+        "n_source": 107053,
+        "member_hash": "f2c25a7d33681fe2d7f973b20d8e93abfc071ca95599c5a7d0ddaf22ac5f5bc6",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "c6f2a8f426956e921820b21b2715bcf296646a87a9f6f8c8e102315dccb259a7",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:02.324371+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "e5621fa85a1c631b0fc92350e74a502470891205f1c8cc48fdc0106a896aecf8",
+      "target_chunk_id": "apigraph:validation:monthly:2015-05:d3e326941c55c30b2703",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 279.91245184427737,
+        "estimated_fp": 27.087548155722608,
+        "estimated_fn": 148.4148627513704,
+        "estimated_tn": 4478.58513724863,
+        "estimated_recall": 0.6535012881644545,
+        "estimated_f1": 0.7613274967167502,
+        "estimated_accuracy": 0.9644299937358952,
+        "estimated_loss": 175.502410907093,
+        "estimated_loss_per_app": 0.03557000626410479,
+        "dre_auc": 0.807761513490691,
+        "ess_ratio": 0.23044011393137728,
+        "max_weight": 20.0,
+        "clip_fraction": 0.005614041642924532
+      },
+      "provenance": {
+        "csv_row_index": 27,
+        "seed": 23,
+        "observed_month": "2015-05",
+        "decision_available_from_month": "2015-06",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4934,
+        "n_source": 107053,
+        "member_hash": "f2c25a7d33681fe2d7f973b20d8e93abfc071ca95599c5a7d0ddaf22ac5f5bc6",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "db743c032c85534619c4ae922172ef5a6ce41ea616fcd9bfe5a0c8f2306c31b8",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:24.439281+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "675ecddbd8f55c868c34e0b9b999121e5a09201d10911ccacbe9de13433b8ca0",
+      "target_chunk_id": "apigraph:validation:monthly:2015-05:d3e326941c55c30b2703",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 278.79263768752645,
+        "estimated_fp": 28.20736231247357,
+        "estimated_fn": 150.74921986740998,
+        "estimated_tn": 4476.25078013259,
+        "estimated_recall": 0.649046496363559,
+        "estimated_f1": 0.7570313481246573,
+        "estimated_accuracy": 0.9637299184880658,
+        "estimated_loss": 178.95658217988355,
+        "estimated_loss_per_app": 0.03627008151193424,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 28,
+        "seed": 37,
+        "observed_month": "2015-05",
+        "decision_available_from_month": "2015-06",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4934,
+        "n_source": 107053,
+        "member_hash": "f2c25a7d33681fe2d7f973b20d8e93abfc071ca95599c5a7d0ddaf22ac5f5bc6",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "559401ddfbbc9a988f51ec8fd7cf18df46d07a1655fc94aa7822ef48093e3b8a",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:08.789913+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "e6a6a75512b71e2e6becf65984137c72e547dbc86319ba523f8defbfa62845d3",
+      "target_chunk_id": "apigraph:validation:monthly:2015-05:d3e326941c55c30b2703",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 282.78594997039954,
+        "estimated_fp": 24.214050029600443,
+        "estimated_fn": 144.61967471547774,
+        "estimated_tn": 4482.380325284523,
+        "estimated_recall": 0.6616336651587909,
+        "estimated_f1": 0.7701083446667605,
+        "estimated_accuracy": 0.9657815717987274,
+        "estimated_loss": 168.8337247450782,
+        "estimated_loss_per_app": 0.03421842820127244,
+        "dre_auc": 0.8069114887532517,
+        "ess_ratio": 0.19840684104164139,
+        "max_weight": 20.0,
+        "clip_fraction": 0.010555519228793215
+      },
+      "provenance": {
+        "csv_row_index": 29,
+        "seed": 37,
+        "observed_month": "2015-05",
+        "decision_available_from_month": "2015-06",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4934,
+        "n_source": 107053,
+        "member_hash": "f2c25a7d33681fe2d7f973b20d8e93abfc071ca95599c5a7d0ddaf22ac5f5bc6",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "0e6e7931648221f9542b77f421533e16a18945c06ed8d924d6fe086a1350f4e7",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:30.120358+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "b522a6b27b9e2494b730032d3034f1ed8906bf0d60450b5c971e9f7ac900bb20",
+      "target_chunk_id": "apigraph:validation:monthly:2015-06:105f9ee7b64198e4fa9e",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 253.03057707768582,
+        "estimated_fp": 23.969422922314173,
+        "estimated_fn": 173.84360127012633,
+        "estimated_tn": 4495.156398729874,
+        "estimated_recall": 0.5927521267672448,
+        "estimated_f1": 0.7189653630187677,
+        "estimated_accuracy": 0.9600054540654185,
+        "estimated_loss": 197.8130241924405,
+        "estimated_loss_per_app": 0.039994545934581585,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 30,
+        "seed": 11,
+        "observed_month": "2015-06",
+        "decision_available_from_month": "2015-07",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "dfdd470070e9ad7a6fe3a3a2655859d59cc567619183289c0b2f2bf88c27173a",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "8deb36db5653252580a0235012f589e7186f44964ca46f0fbfe0121dbd6d69c0",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:13.282133+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "27308a3604e1f951564f52e90f77030515eded4cc3866e0214f16d3269f6d2fe",
+      "target_chunk_id": "apigraph:validation:monthly:2015-06:105f9ee7b64198e4fa9e",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 238.7135812897166,
+        "estimated_fp": 38.28641871028343,
+        "estimated_fn": 173.54699286276855,
+        "estimated_tn": 4495.453007137231,
+        "estimated_recall": 0.5790356785401028,
+        "estimated_f1": 0.6926657065312022,
+        "estimated_accuracy": 0.9571707619140615,
+        "estimated_loss": 211.833411573052,
+        "estimated_loss_per_app": 0.04282923808593853,
+        "dre_auc": 0.7939665109881574,
+        "ess_ratio": 0.2417300991962406,
+        "max_weight": 20.0,
+        "clip_fraction": 0.007108628436381979
+      },
+      "provenance": {
+        "csv_row_index": 31,
+        "seed": 11,
+        "observed_month": "2015-06",
+        "decision_available_from_month": "2015-07",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "dfdd470070e9ad7a6fe3a3a2655859d59cc567619183289c0b2f2bf88c27173a",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "1cb50e68de7bde854726dc043e3ab3e54545568c358c161463a883bbc762e774",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:35.595740+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "2449a225074d6b2edaf082e5452ee47fc724c0cadbc7e427ea416ded58461e2a",
+      "target_chunk_id": "apigraph:validation:monthly:2015-06:105f9ee7b64198e4fa9e",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 253.03057707768582,
+        "estimated_fp": 23.969422922314173,
+        "estimated_fn": 173.84360127012633,
+        "estimated_tn": 4495.156398729874,
+        "estimated_recall": 0.5927521267672448,
+        "estimated_f1": 0.7189653630187677,
+        "estimated_accuracy": 0.9600054540654185,
+        "estimated_loss": 197.8130241924405,
+        "estimated_loss_per_app": 0.039994545934581585,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 32,
+        "seed": 23,
+        "observed_month": "2015-06",
+        "decision_available_from_month": "2015-07",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "dfdd470070e9ad7a6fe3a3a2655859d59cc567619183289c0b2f2bf88c27173a",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "e433cd4c8d500ead10c93f866a04fc43a6903b465bc6f82506c0d6a1eeffe6ae",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:23.746702+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "94ea0508aefd9de4dafe045d19ef4c6bd1ed2d06b589990e9a3d6ca2b2455b54",
+      "target_chunk_id": "apigraph:validation:monthly:2015-06:105f9ee7b64198e4fa9e",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 248.59838482226354,
+        "estimated_fp": 28.401615177736453,
+        "estimated_fn": 166.51664680577295,
+        "estimated_tn": 4502.483353194228,
+        "estimated_recall": 0.5988662560526595,
+        "estimated_f1": 0.7183730260488487,
+        "estimated_accuracy": 0.9605907274598645,
+        "estimated_loss": 194.9182619835094,
+        "estimated_loss_per_app": 0.03940927254013534,
+        "dre_auc": 0.7959654531048748,
+        "ess_ratio": 0.24043624219496668,
+        "max_weight": 20.0,
+        "clip_fraction": 0.012591893734878986
+      },
+      "provenance": {
+        "csv_row_index": 33,
+        "seed": 23,
+        "observed_month": "2015-06",
+        "decision_available_from_month": "2015-07",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "dfdd470070e9ad7a6fe3a3a2655859d59cc567619183289c0b2f2bf88c27173a",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "a8e7bd0c7d22112717c75ed6a91615d0e8da466e6bd674d722e208cf5ca512ee",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:45.109819+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "bf944ca3f8a56fcb55876b3c92105391c66a44ead835316f68af7548c0b2823a",
+      "target_chunk_id": "apigraph:validation:monthly:2015-06:105f9ee7b64198e4fa9e",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 253.03057707768582,
+        "estimated_fp": 23.969422922314173,
+        "estimated_fn": 173.84360127012633,
+        "estimated_tn": 4495.156398729874,
+        "estimated_recall": 0.5927521267672448,
+        "estimated_f1": 0.7189653630187677,
+        "estimated_accuracy": 0.9600054540654185,
+        "estimated_loss": 197.8130241924405,
+        "estimated_loss_per_app": 0.039994545934581585,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 34,
+        "seed": 37,
+        "observed_month": "2015-06",
+        "decision_available_from_month": "2015-07",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "dfdd470070e9ad7a6fe3a3a2655859d59cc567619183289c0b2f2bf88c27173a",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "37c8f1a27876330c7a0748d1870f8db5f240716c5c56c5c2e6fdc8b4bb4ff3aa",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:28.973397+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "75c5fd78951dfdf02c9d1c92f005d89b909d25bd533745a88d19553b6d210019",
+      "target_chunk_id": "apigraph:validation:monthly:2015-06:105f9ee7b64198e4fa9e",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 242.6573684044987,
+        "estimated_fp": 34.34263159550129,
+        "estimated_fn": 175.38044638327278,
+        "estimated_tn": 4493.619553616727,
+        "estimated_recall": 0.5804675075332371,
+        "estimated_f1": 0.6982565933584309,
+        "estimated_accuracy": 0.9575974367208301,
+        "estimated_loss": 209.72307797877409,
+        "estimated_loss_per_app": 0.04240256327916985,
+        "dre_auc": 0.79467087832496,
+        "ess_ratio": 0.23858297254757815,
+        "max_weight": 20.0,
+        "clip_fraction": 0.005800864992106714
+      },
+      "provenance": {
+        "csv_row_index": 35,
+        "seed": 37,
+        "observed_month": "2015-06",
+        "decision_available_from_month": "2015-07",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4946,
+        "n_source": 107053,
+        "member_hash": "dfdd470070e9ad7a6fe3a3a2655859d59cc567619183289c0b2f2bf88c27173a",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "6b57976fbfb0b30a44a66c9c3a492914f005bb65421a7ee48d15705268d024d7",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:51.240565+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "6b74e0e74e88403fb95a288c881b346ec39c3e8bb0951c4253adac360153e19c",
+      "target_chunk_id": "apigraph:validation:monthly:2015-07:9f3270b117de446200d6",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 240.8322126931442,
+        "estimated_fp": 28.167787306855786,
+        "estimated_fn": 194.34176718688983,
+        "estimated_tn": 4360.65823281311,
+        "estimated_recall": 0.5534159297840723,
+        "estimated_f1": 0.6840133818468367,
+        "estimated_accuracy": 0.9538744704614955,
+        "estimated_loss": 222.5095544937456,
+        "estimated_loss_per_app": 0.04612552953850448,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 36,
+        "seed": 11,
+        "observed_month": "2015-07",
+        "decision_available_from_month": "2015-08",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4824,
+        "n_source": 107053,
+        "member_hash": "d9b6ebd8209593395922a21848c162253d78e431ce77eb1172e6b22abaa7823d",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "a503a45db50686fe79089793b07688be2ad2d3e1d78caf0f42b6d40cf9e39ba1",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:34.539505+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "dce189c4bfce937018df88ff9de80e3cf0739e358e530aca47c0406c446f961c",
+      "target_chunk_id": "apigraph:validation:monthly:2015-07:9f3270b117de446200d6",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 237.20115453816427,
+        "estimated_fp": 31.798845461835707,
+        "estimated_fn": 190.9444613433024,
+        "estimated_tn": 4364.0555386566975,
+        "estimated_recall": 0.5540198141462087,
+        "estimated_f1": 0.6804924226289469,
+        "estimated_accuracy": 0.9538260143438769,
+        "estimated_loss": 222.7433068051381,
+        "estimated_loss_per_app": 0.046173985656123157,
+        "dre_auc": 0.8238324276275137,
+        "ess_ratio": 0.21103613093985316,
+        "max_weight": 20.0,
+        "clip_fraction": 0.00817352152672041
+      },
+      "provenance": {
+        "csv_row_index": 37,
+        "seed": 11,
+        "observed_month": "2015-07",
+        "decision_available_from_month": "2015-08",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4824,
+        "n_source": 107053,
+        "member_hash": "d9b6ebd8209593395922a21848c162253d78e431ce77eb1172e6b22abaa7823d",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "50ef181624ab39cc71c39edf3308160eb2bd755a51b3d4341da9db7c95f1a7b9",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:56.796667+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "c8043164de2e36a46cf806811c083d99a72ddf7a5287a1d1362908886f3d4198",
+      "target_chunk_id": "apigraph:validation:monthly:2015-07:9f3270b117de446200d6",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 240.8322126931442,
+        "estimated_fp": 28.167787306855786,
+        "estimated_fn": 194.34176718688983,
+        "estimated_tn": 4360.65823281311,
+        "estimated_recall": 0.5534159297840723,
+        "estimated_f1": 0.6840133818468367,
+        "estimated_accuracy": 0.9538744704614955,
+        "estimated_loss": 222.5095544937456,
+        "estimated_loss_per_app": 0.04612552953850448,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 38,
+        "seed": 23,
+        "observed_month": "2015-07",
+        "decision_available_from_month": "2015-08",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4824,
+        "n_source": 107053,
+        "member_hash": "d9b6ebd8209593395922a21848c162253d78e431ce77eb1172e6b22abaa7823d",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "64e50a34d0e81fb4d53c51a04591e4918afd2fd6ae182c779558a53bbd015c09",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:40.077628+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "32e8d11f1b5bb02ef2755253236c8d2059f7dec0d04c41ef2333e0fa8841bc6b",
+      "target_chunk_id": "apigraph:validation:monthly:2015-07:9f3270b117de446200d6",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 236.31622661278976,
+        "estimated_fp": 32.68377338721024,
+        "estimated_fn": 196.7974550757428,
+        "estimated_tn": 4358.202544924257,
+        "estimated_recall": 0.5456217076576518,
+        "estimated_f1": 0.6731565920905184,
+        "estimated_accuracy": 0.9524292644148109,
+        "estimated_loss": 229.48122846295303,
+        "estimated_loss_per_app": 0.04757073558518927,
+        "dre_auc": 0.8228315032569776,
+        "ess_ratio": 0.20918105866942638,
+        "max_weight": 20.0,
+        "clip_fraction": 0.009014226598040223
+      },
+      "provenance": {
+        "csv_row_index": 39,
+        "seed": 23,
+        "observed_month": "2015-07",
+        "decision_available_from_month": "2015-08",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4824,
+        "n_source": 107053,
+        "member_hash": "d9b6ebd8209593395922a21848c162253d78e431ce77eb1172e6b22abaa7823d",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "d856d5155c449cf60ec5b55e4aa0bf63b2c9ac8aeb5d6f4c6841b5bce237fc42",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:02.574050+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "e0c34946e56f33fe6681f4e2a4830c0e9b8de9e1875b4814ba07cfb5008719a6",
+      "target_chunk_id": "apigraph:validation:monthly:2015-07:9f3270b117de446200d6",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 240.8322126931442,
+        "estimated_fp": 28.167787306855786,
+        "estimated_fn": 194.34176718688983,
+        "estimated_tn": 4360.65823281311,
+        "estimated_recall": 0.5534159297840723,
+        "estimated_f1": 0.6840133818468367,
+        "estimated_accuracy": 0.9538744704614955,
+        "estimated_loss": 222.5095544937456,
+        "estimated_loss_per_app": 0.04612552953850448,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 40,
+        "seed": 37,
+        "observed_month": "2015-07",
+        "decision_available_from_month": "2015-08",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4824,
+        "n_source": 107053,
+        "member_hash": "d9b6ebd8209593395922a21848c162253d78e431ce77eb1172e6b22abaa7823d",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "92e8f746d60c9c3980a0dd777300a147b4be660d1e1351d922b579193b5bdeb9",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:49.609832+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "aed93f15eb2ed765149c24c6fa1bcd0d7426b2abf60bdc47dab5c6966da9b458",
+      "target_chunk_id": "apigraph:validation:monthly:2015-07:9f3270b117de446200d6",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 234.6110982959133,
+        "estimated_fp": 34.38890170408669,
+        "estimated_fn": 194.61497707773262,
+        "estimated_tn": 4360.385022922267,
+        "estimated_recall": 0.5465909732806467,
+        "estimated_f1": 0.6720204431504924,
+        "estimated_accuracy": 0.9525282174996228,
+        "estimated_loss": 229.0038787818193,
+        "estimated_loss_per_app": 0.04747178250037714,
+        "dre_auc": 0.826124403082702,
+        "ess_ratio": 0.21552799696209932,
+        "max_weight": 20.0,
+        "clip_fraction": 0.0073888634601552506
+      },
+      "provenance": {
+        "csv_row_index": 41,
+        "seed": 37,
+        "observed_month": "2015-07",
+        "decision_available_from_month": "2015-08",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4824,
+        "n_source": 107053,
+        "member_hash": "d9b6ebd8209593395922a21848c162253d78e431ce77eb1172e6b22abaa7823d",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "ee7b80b54ace3e262094a7c8801121ca21f20ade8f913e5bb2e97395df601e9f",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:11.034446+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "fdb1477acc6732df8f2931610015be60714970976e1b3fb42c548622ad012ae5",
+      "target_chunk_id": "apigraph:validation:monthly:2015-08:d69684e6ec5a74aa25a2",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 147.509148103538,
+        "estimated_fp": 19.490851896462004,
+        "estimated_fn": 117.76093472523542,
+        "estimated_tn": 2826.2390652747645,
+        "estimated_recall": 0.556071557450194,
+        "estimated_f1": 0.6824860380724884,
+        "estimated_accuracy": 0.955881778649406,
+        "estimated_loss": 137.25178662169742,
+        "estimated_loss_per_app": 0.04411822135059384,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 42,
+        "seed": 11,
+        "observed_month": "2015-08",
+        "decision_available_from_month": "2015-09",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 3111,
+        "n_source": 107053,
+        "member_hash": "076169320f64da0b00d4e20cef823f22f18460fc1dc920e245dc8671df18daf0",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "4a20367a14b96266da584c5be66513b7938aafcdd3c0e3483d8bcc6662db39eb",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:17:55.819124+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "1113d4b5d9e627eb14e22f19e9d3a8e6630ad6b81048aba945882f7512a87e3b",
+      "target_chunk_id": "apigraph:validation:monthly:2015-08:d69684e6ec5a74aa25a2",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 143.85532392497623,
+        "estimated_fp": 23.144676075023735,
+        "estimated_fn": 120.7696229008315,
+        "estimated_tn": 2823.2303770991684,
+        "estimated_recall": 0.5436196611488431,
+        "estimated_f1": 0.6665755767033197,
+        "estimated_accuracy": 0.9537401803356299,
+        "estimated_loss": 143.91429897585522,
+        "estimated_loss_per_app": 0.046259819664370046,
+        "dre_auc": 0.8616477925778044,
+        "ess_ratio": 0.1478345262191943,
+        "max_weight": 20.0,
+        "clip_fraction": 0.04043791393048303
+      },
+      "provenance": {
+        "csv_row_index": 43,
+        "seed": 11,
+        "observed_month": "2015-08",
+        "decision_available_from_month": "2015-09",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 3111,
+        "n_source": 107053,
+        "member_hash": "076169320f64da0b00d4e20cef823f22f18460fc1dc920e245dc8671df18daf0",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "702c0c4b13300c1ed48aeb5a759eec49f6c804eb5b94e4e60942fb23fba0d689",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:14.893392+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "7f0cd51c622a3c6a6cd4ee3e02d2dbe5a40e476b2fc8140c81f854a7d06de57f",
+      "target_chunk_id": "apigraph:validation:monthly:2015-08:d69684e6ec5a74aa25a2",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 147.509148103538,
+        "estimated_fp": 19.490851896462004,
+        "estimated_fn": 117.76093472523542,
+        "estimated_tn": 2826.2390652747645,
+        "estimated_recall": 0.556071557450194,
+        "estimated_f1": 0.6824860380724884,
+        "estimated_accuracy": 0.955881778649406,
+        "estimated_loss": 137.25178662169742,
+        "estimated_loss_per_app": 0.04411822135059384,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 44,
+        "seed": 23,
+        "observed_month": "2015-08",
+        "decision_available_from_month": "2015-09",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 3111,
+        "n_source": 107053,
+        "member_hash": "076169320f64da0b00d4e20cef823f22f18460fc1dc920e245dc8671df18daf0",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "3f57763d4cda66a0b9804cdd12a4d6e568562c19a3a3436139c9a49072b4590a",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:01.218916+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "05dc9df0127b3fb31e97cf5e83e95b6bdaf1c3c5b93ea69750838992f67dad87",
+      "target_chunk_id": "apigraph:validation:monthly:2015-08:d69684e6ec5a74aa25a2",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 146.5708595013283,
+        "estimated_fp": 20.429140498671703,
+        "estimated_fn": 117.95107622253734,
+        "estimated_tn": 2826.0489237774627,
+        "estimated_recall": 0.5540971832836336,
+        "estimated_f1": 0.6793205506712418,
+        "estimated_accuracy": 0.9555190560201836,
+        "estimated_loss": 138.38021672120905,
+        "estimated_loss_per_app": 0.04448094397981647,
+        "dre_auc": 0.8604371061033467,
+        "ess_ratio": 0.13480819785415288,
+        "max_weight": 20.0,
+        "clip_fraction": 0.04236219442705949
+      },
+      "provenance": {
+        "csv_row_index": 45,
+        "seed": 23,
+        "observed_month": "2015-08",
+        "decision_available_from_month": "2015-09",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 3111,
+        "n_source": 107053,
+        "member_hash": "076169320f64da0b00d4e20cef823f22f18460fc1dc920e245dc8671df18daf0",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "7878e4702822da32bd3d2e05ece25b808756b452169c8886e3ccab8e785278e3",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:19.716922+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "0e5e93ea2f7759aa6ba724ef7e4b8c4e7521690fe82b3eb96e3c1b676d7a0d44",
+      "target_chunk_id": "apigraph:validation:monthly:2015-08:d69684e6ec5a74aa25a2",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 147.509148103538,
+        "estimated_fp": 19.490851896462004,
+        "estimated_fn": 117.76093472523542,
+        "estimated_tn": 2826.2390652747645,
+        "estimated_recall": 0.556071557450194,
+        "estimated_f1": 0.6824860380724884,
+        "estimated_accuracy": 0.955881778649406,
+        "estimated_loss": 137.25178662169742,
+        "estimated_loss_per_app": 0.04411822135059384,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 46,
+        "seed": 37,
+        "observed_month": "2015-08",
+        "decision_available_from_month": "2015-09",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 3111,
+        "n_source": 107053,
+        "member_hash": "076169320f64da0b00d4e20cef823f22f18460fc1dc920e245dc8671df18daf0",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "2c16135fe9bf07fcbb0fce8f653d5b1e9c2172bc766c2bd618d42867aa346118",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:07.061251+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "f3dd98666d0b8d5e59358535741c1c3b380f17bf3c02cdcfa4fa34c1084632ad",
+      "target_chunk_id": "apigraph:validation:monthly:2015-08:d69684e6ec5a74aa25a2",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 145.39056721025176,
+        "estimated_fp": 21.609432789748247,
+        "estimated_fn": 117.46243721010524,
+        "estimated_tn": 2826.5375627898948,
+        "estimated_recall": 0.5531249967291292,
+        "estimated_f1": 0.6764664465067832,
+        "estimated_accuracy": 0.9552967309547241,
+        "estimated_loss": 139.07186999985348,
+        "estimated_loss_per_app": 0.044703269045275947,
+        "dre_auc": 0.8601187210156344,
+        "ess_ratio": 0.1485005429479855,
+        "max_weight": 20.0,
+        "clip_fraction": 0.03612229456437466
+      },
+      "provenance": {
+        "csv_row_index": 47,
+        "seed": 37,
+        "observed_month": "2015-08",
+        "decision_available_from_month": "2015-09",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 3111,
+        "n_source": 107053,
+        "member_hash": "076169320f64da0b00d4e20cef823f22f18460fc1dc920e245dc8671df18daf0",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "3e5f71f479134f9de78be121566b7d7d79791d1094d3e486406922298baf1c3b",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:25.555939+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "f8787d64b83970bfed6998f89c4d5f8c338867f99712933cdb5112eb3d411f56",
+      "target_chunk_id": "apigraph:validation:monthly:2015-09:2fa17dd6ed169a6d85ba",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 188.26189554909976,
+        "estimated_fp": 30.73810445090023,
+        "estimated_fn": 262.33917520061703,
+        "estimated_tn": 4477.660824799383,
+        "estimated_recall": 0.41780170481145734,
+        "estimated_f1": 0.5623106167925117,
+        "estimated_accuracy": 0.9408999234419202,
+        "estimated_loss": 293.07727965151724,
+        "estimated_loss_per_app": 0.0591000765580797,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 48,
+        "seed": 11,
+        "observed_month": "2015-09",
+        "decision_available_from_month": "2015-10",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4959,
+        "n_source": 107053,
+        "member_hash": "0433e273daa335f44fb968d24c9097885d88a2fccacbca4e69a3c802f558e108",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "fcd08258626494c99d70d32f0c44a4036c2d1c4824e9df27f3cf9fc5d76ab935",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:15.482216+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "20eb209ff965d6e7ba716a7c955e3060cd97eb482b8749a5ac3628dc3b90773a",
+      "target_chunk_id": "apigraph:validation:monthly:2015-09:2fa17dd6ed169a6d85ba",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 187.9175949596483,
+        "estimated_fp": 31.082405040351674,
+        "estimated_fn": 265.3379952727763,
+        "estimated_tn": 4474.6620047272245,
+        "estimated_recall": 0.4145952063454665,
+        "estimated_f1": 0.5590659198376557,
+        "estimated_accuracy": 0.9402257712617205,
+        "estimated_loss": 296.42040031312797,
+        "estimated_loss_per_app": 0.059774228738279485,
+        "dre_auc": 0.8296057038715342,
+        "ess_ratio": 0.22269000535176267,
+        "max_weight": 20.0,
+        "clip_fraction": 0.012993563935620674
+      },
+      "provenance": {
+        "csv_row_index": 49,
+        "seed": 11,
+        "observed_month": "2015-09",
+        "decision_available_from_month": "2015-10",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4959,
+        "n_source": 107053,
+        "member_hash": "0433e273daa335f44fb968d24c9097885d88a2fccacbca4e69a3c802f558e108",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "6b2edb8ee944e4a1cf5300a79aaa75131e3b6665693877a50b48caf85df17772",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:36.805077+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "cb8ad7036775a0734f087d69a8e1c08806028143e394322842948fa85e41a74b",
+      "target_chunk_id": "apigraph:validation:monthly:2015-09:2fa17dd6ed169a6d85ba",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 188.26189554909976,
+        "estimated_fp": 30.73810445090023,
+        "estimated_fn": 262.33917520061703,
+        "estimated_tn": 4477.660824799383,
+        "estimated_recall": 0.41780170481145734,
+        "estimated_f1": 0.5623106167925117,
+        "estimated_accuracy": 0.9408999234419202,
+        "estimated_loss": 293.07727965151724,
+        "estimated_loss_per_app": 0.0591000765580797,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 50,
+        "seed": 23,
+        "observed_month": "2015-09",
+        "decision_available_from_month": "2015-10",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4959,
+        "n_source": 107053,
+        "member_hash": "0433e273daa335f44fb968d24c9097885d88a2fccacbca4e69a3c802f558e108",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "ffffe702871835eacaf4bfe4d84e44b0e117ab2b6ba2d1ed65cb8c6b93accb88",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:20.105430+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "b95f62902bd043c3df53d0508021a45748fbb6e46afa391067a5016d7d2c04a1",
+      "target_chunk_id": "apigraph:validation:monthly:2015-09:2fa17dd6ed169a6d85ba",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 188.47190722003205,
+        "estimated_fp": 30.528092779967963,
+        "estimated_fn": 266.5492735799337,
+        "estimated_tn": 4473.4507264200665,
+        "estimated_recall": 0.4142046901831745,
+        "estimated_f1": 0.5592462450403802,
+        "estimated_accuracy": 0.9400932917201248,
+        "estimated_loss": 297.07736635990165,
+        "estimated_loss_per_app": 0.059906708279875306,
+        "dre_auc": 0.8304667542239117,
+        "ess_ratio": 0.2238443447632622,
+        "max_weight": 20.0,
+        "clip_fraction": 0.014861797427442482
+      },
+      "provenance": {
+        "csv_row_index": 51,
+        "seed": 23,
+        "observed_month": "2015-09",
+        "decision_available_from_month": "2015-10",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4959,
+        "n_source": 107053,
+        "member_hash": "0433e273daa335f44fb968d24c9097885d88a2fccacbca4e69a3c802f558e108",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "8121500b30ec30e6ece2d662900fcbf1c09f38afa11d91b82c225b50f0575b8d",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:42.997701+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "786976e3774a2ff624522bf67600f98e25c79cbc073f9f44605fd31e379a1ac5",
+      "target_chunk_id": "apigraph:validation:monthly:2015-09:2fa17dd6ed169a6d85ba",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 188.26189554909976,
+        "estimated_fp": 30.73810445090023,
+        "estimated_fn": 262.33917520061703,
+        "estimated_tn": 4477.660824799383,
+        "estimated_recall": 0.41780170481145734,
+        "estimated_f1": 0.5623106167925117,
+        "estimated_accuracy": 0.9408999234419202,
+        "estimated_loss": 293.07727965151724,
+        "estimated_loss_per_app": 0.0591000765580797,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 52,
+        "seed": 37,
+        "observed_month": "2015-09",
+        "decision_available_from_month": "2015-10",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4959,
+        "n_source": 107053,
+        "member_hash": "0433e273daa335f44fb968d24c9097885d88a2fccacbca4e69a3c802f558e108",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "680c89ff7ea7146a2351310c4a2efc41c47ecc94b02f2e56784a1c592cb68616",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:24.657461+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "382393c4dd4c7ecad71b4edf710edf7794fb41a230e815bebdce24ea90414b48",
+      "target_chunk_id": "apigraph:validation:monthly:2015-09:2fa17dd6ed169a6d85ba",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 188.5808991073058,
+        "estimated_fp": 30.41910089269416,
+        "estimated_fn": 260.7418770452132,
+        "estimated_tn": 4479.258122954787,
+        "estimated_recall": 0.4197002892265883,
+        "estimated_f1": 0.5643407821380891,
+        "estimated_accuracy": 0.9412863525029426,
+        "estimated_loss": 291.1609779379073,
+        "estimated_loss_per_app": 0.058713647497057334,
+        "dre_auc": 0.8254060813991247,
+        "ess_ratio": 0.22767571125431854,
+        "max_weight": 20.0,
+        "clip_fraction": 0.012806740586438494
+      },
+      "provenance": {
+        "csv_row_index": 53,
+        "seed": 37,
+        "observed_month": "2015-09",
+        "decision_available_from_month": "2015-10",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4959,
+        "n_source": 107053,
+        "member_hash": "0433e273daa335f44fb968d24c9097885d88a2fccacbca4e69a3c802f558e108",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "51ace0a1efa8ec735eceaee08cdf08f8c732488f23b74be85bf9863ea63b3131",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:47.389767+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "74d7004475a71555af69bd3c142b37bfff183a9b5283012145e8b7efa4b94c6c",
+      "target_chunk_id": "apigraph:validation:monthly:2015-10:adbbe579e74655f931fb",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 203.25864128786975,
+        "estimated_fp": 34.74135871213023,
+        "estimated_fn": 161.83387033508143,
+        "estimated_tn": 4563.166129664918,
+        "estimated_recall": 0.5567318825147114,
+        "estimated_f1": 0.6740546014769472,
+        "estimated_accuracy": 0.9603918539094878,
+        "estimated_loss": 196.57522904721165,
+        "estimated_loss_per_app": 0.03960814609051212,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 54,
+        "seed": 11,
+        "observed_month": "2015-10",
+        "decision_available_from_month": "2015-11",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4963,
+        "n_source": 107053,
+        "member_hash": "98ad0a4c742c9eabaff24a904f6e7f173900b07599501cdd59a9ada9faf6fb16",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "02aed20bb9409215477beb0f4fd2a5ffd7524ada9e76d461f1c866c1a43380bc",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:30.209232+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "eddc8e945283f38df896580442f575d04ef227aa3d81848c3a1524063dee38b0",
+      "target_chunk_id": "apigraph:validation:monthly:2015-10:adbbe579e74655f931fb",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 202.25326316598063,
+        "estimated_fp": 35.7467368340194,
+        "estimated_fn": 178.28123178361457,
+        "estimated_tn": 4546.718768216386,
+        "estimated_recall": 0.5314978427718376,
+        "estimated_f1": 0.6539756951872583,
+        "estimated_accuracy": 0.9568752833734367,
+        "estimated_loss": 214.02796861763397,
+        "estimated_loss_per_app": 0.043124716626563364,
+        "dre_auc": 0.8829642301617815,
+        "ess_ratio": 0.15460826770329358,
+        "max_weight": 20.0,
+        "clip_fraction": 0.057429497538602374
+      },
+      "provenance": {
+        "csv_row_index": 55,
+        "seed": 11,
+        "observed_month": "2015-10",
+        "decision_available_from_month": "2015-11",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4963,
+        "n_source": 107053,
+        "member_hash": "98ad0a4c742c9eabaff24a904f6e7f173900b07599501cdd59a9ada9faf6fb16",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "00a2958ce69bb40161362af1f4900da047ceec9d6c90d522ee9b0f926ba1adbe",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:53.055432+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "5b9ba9c8c6d7d72cef9a6501c6831cdf7374d4cdac4791be14b807dbd6032779",
+      "target_chunk_id": "apigraph:validation:monthly:2015-10:adbbe579e74655f931fb",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 203.25864128786975,
+        "estimated_fp": 34.74135871213023,
+        "estimated_fn": 161.83387033508143,
+        "estimated_tn": 4563.166129664918,
+        "estimated_recall": 0.5567318825147114,
+        "estimated_f1": 0.6740546014769472,
+        "estimated_accuracy": 0.9603918539094878,
+        "estimated_loss": 196.57522904721165,
+        "estimated_loss_per_app": 0.03960814609051212,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 56,
+        "seed": 23,
+        "observed_month": "2015-10",
+        "decision_available_from_month": "2015-11",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4963,
+        "n_source": 107053,
+        "member_hash": "98ad0a4c742c9eabaff24a904f6e7f173900b07599501cdd59a9ada9faf6fb16",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "ed6c9a6b1eb0711b105db739b3e543a1d2c07604f7d76d9a1274b926bdb70c72",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:41.545913+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "67d13afb74150e63abe7a9d94c899f33c782c0e17a8ff543dc1e176419ab792b",
+      "target_chunk_id": "apigraph:validation:monthly:2015-10:adbbe579e74655f931fb",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 204.99295925994113,
+        "estimated_fp": 33.00704074005888,
+        "estimated_fn": 180.6388107730313,
+        "estimated_tn": 4544.361189226969,
+        "estimated_recall": 0.5315769477250636,
+        "estimated_f1": 0.6574166651230832,
+        "estimated_accuracy": 0.9569522765438062,
+        "estimated_loss": 213.64585151309018,
+        "estimated_loss_per_app": 0.04304772345619387,
+        "dre_auc": 0.8828159453820751,
+        "ess_ratio": 0.154274042166077,
+        "max_weight": 20.0,
+        "clip_fraction": 0.05416943009537332
+      },
+      "provenance": {
+        "csv_row_index": 57,
+        "seed": 23,
+        "observed_month": "2015-10",
+        "decision_available_from_month": "2015-11",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4963,
+        "n_source": 107053,
+        "member_hash": "98ad0a4c742c9eabaff24a904f6e7f173900b07599501cdd59a9ada9faf6fb16",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "ce592ccfadbd69e6933827bfccdcc486f5a3f9e4ddc596f1852dbee0721d04a5",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:03.438534+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "497353cd837aa4fe3cc376a1171e481329a7ef36be62aeb160f69cfb53620d99",
+      "target_chunk_id": "apigraph:validation:monthly:2015-10:adbbe579e74655f931fb",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 203.25864128786975,
+        "estimated_fp": 34.74135871213023,
+        "estimated_fn": 161.83387033508143,
+        "estimated_tn": 4563.166129664918,
+        "estimated_recall": 0.5567318825147114,
+        "estimated_f1": 0.6740546014769472,
+        "estimated_accuracy": 0.9603918539094878,
+        "estimated_loss": 196.57522904721165,
+        "estimated_loss_per_app": 0.03960814609051212,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 58,
+        "seed": 37,
+        "observed_month": "2015-10",
+        "decision_available_from_month": "2015-11",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4963,
+        "n_source": 107053,
+        "member_hash": "98ad0a4c742c9eabaff24a904f6e7f173900b07599501cdd59a9ada9faf6fb16",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "a7476b46a2ae6e0f7a5bb20d49601303ccbde5db483740aadf64dae4fb2da6d0",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:47.582380+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "d990c44f27fad0d0db946afbc600af8e08b91595a5ae82a74c8e5aed2d751459",
+      "target_chunk_id": "apigraph:validation:monthly:2015-10:adbbe579e74655f931fb",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 203.85092955237832,
+        "estimated_fp": 34.149070447621675,
+        "estimated_fn": 168.80649551086,
+        "estimated_tn": 4556.19350448914,
+        "estimated_recall": 0.5470196374533145,
+        "estimated_f1": 0.667644152631954,
+        "estimated_accuracy": 0.9591062732302071,
+        "estimated_loss": 202.95556595848169,
+        "estimated_loss_per_app": 0.040893726769792804,
+        "dre_auc": 0.8833833735730215,
+        "ess_ratio": 0.1540775892725601,
+        "max_weight": 20.0,
+        "clip_fraction": 0.05213305558928755
+      },
+      "provenance": {
+        "csv_row_index": 59,
+        "seed": 37,
+        "observed_month": "2015-10",
+        "decision_available_from_month": "2015-11",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4963,
+        "n_source": 107053,
+        "member_hash": "98ad0a4c742c9eabaff24a904f6e7f173900b07599501cdd59a9ada9faf6fb16",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "069c20dbb5d9d6680cf71d2284e868d4d31253fe778a36d21088b447240497ad",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:10.348286+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "26048d95646ed07963b58a3989a000df6815cab9eb51b96ca5feb32a29f54a4b",
+      "target_chunk_id": "apigraph:validation:monthly:2015-11:2e225499df7a5d746d99",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 85.77899167002673,
+        "estimated_fp": 18.221008329973266,
+        "estimated_fn": 219.58627949031776,
+        "estimated_tn": 4651.413720509682,
+        "estimated_recall": 0.28090617948818736,
+        "estimated_f1": 0.4190828959520013,
+        "estimated_accuracy": 0.9521995401366249,
+        "estimated_loss": 237.80728782029104,
+        "estimated_loss_per_app": 0.04780045986337508,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 60,
+        "seed": 11,
+        "observed_month": "2015-11",
+        "decision_available_from_month": "2015-12",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4975,
+        "n_source": 107053,
+        "member_hash": "88d6018c68b6beb6bce89d00e67f5a5dbae2667f83304a6f75654da2db086dd8",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "1a1159e868c7fd1b5e2673ade2420f876621d2ecde00462aa6285193e4e07151",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:52.158529+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "adb6fe0ba7409b6a5a6e50fbf805cb5154bd9c787c3f10bf24c6667911c7601a",
+      "target_chunk_id": "apigraph:validation:monthly:2015-11:2e225499df7a5d746d99",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 84.91059520695,
+        "estimated_fp": 19.08940479305,
+        "estimated_fn": 265.61759751211395,
+        "estimated_tn": 4605.382402487887,
+        "estimated_recall": 0.24223613669501007,
+        "estimated_f1": 0.37362080754111454,
+        "estimated_accuracy": 0.9427724618482083,
+        "estimated_loss": 284.70700230516394,
+        "estimated_loss_per_app": 0.05722753815179175,
+        "dre_auc": 0.9008881669049836,
+        "ess_ratio": 0.13013552045304322,
+        "max_weight": 20.0,
+        "clip_fraction": 0.061492905383314804
+      },
+      "provenance": {
+        "csv_row_index": 61,
+        "seed": 11,
+        "observed_month": "2015-11",
+        "decision_available_from_month": "2015-12",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4975,
+        "n_source": 107053,
+        "member_hash": "88d6018c68b6beb6bce89d00e67f5a5dbae2667f83304a6f75654da2db086dd8",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "a3827a885e73cbe0864603c848deb712070910d7c0fd720752d97e5e34ca12b6",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:15.159594+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "37ff27f9756145536dedaa4c11c084d4dc4aa5683f714eed0f985d643b4f7c60",
+      "target_chunk_id": "apigraph:validation:monthly:2015-11:2e225499df7a5d746d99",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 85.77899167002673,
+        "estimated_fp": 18.221008329973266,
+        "estimated_fn": 219.58627949031776,
+        "estimated_tn": 4651.413720509682,
+        "estimated_recall": 0.28090617948818736,
+        "estimated_f1": 0.4190828959520013,
+        "estimated_accuracy": 0.9521995401366249,
+        "estimated_loss": 237.80728782029104,
+        "estimated_loss_per_app": 0.04780045986337508,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 62,
+        "seed": 23,
+        "observed_month": "2015-11",
+        "decision_available_from_month": "2015-12",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4975,
+        "n_source": 107053,
+        "member_hash": "88d6018c68b6beb6bce89d00e67f5a5dbae2667f83304a6f75654da2db086dd8",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "7a965ea94554e6aee5a834925958c84f5c70086b4fe1dcbe918cd47a70eec6b0",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:18:57.628135+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "947c2e65509b0d34cd45640f7fb5c3c1141917071c2f4854aab7412967f5502d",
+      "target_chunk_id": "apigraph:validation:monthly:2015-11:2e225499df7a5d746d99",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 82.570333346877,
+        "estimated_fp": 21.42966665312299,
+        "estimated_fn": 237.04181221498285,
+        "estimated_tn": 4633.958187785018,
+        "estimated_recall": 0.2583454180119566,
+        "estimated_f1": 0.38983931037840985,
+        "estimated_accuracy": 0.9480459338958581,
+        "estimated_loss": 258.47147886810586,
+        "estimated_loss_per_app": 0.05195406610414188,
+        "dre_auc": 0.9058305435511834,
+        "ess_ratio": 0.13482094043682502,
+        "max_weight": 20.0,
+        "clip_fraction": 0.06131542320159174
+      },
+      "provenance": {
+        "csv_row_index": 63,
+        "seed": 23,
+        "observed_month": "2015-11",
+        "decision_available_from_month": "2015-12",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4975,
+        "n_source": 107053,
+        "member_hash": "88d6018c68b6beb6bce89d00e67f5a5dbae2667f83304a6f75654da2db086dd8",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "cc048a9dff27484d1bf0e7cacc85f5466143335afd956110b37597ecbfc612ea",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:20.033145+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "a3810314f1fa4910ff390f44359e4b61b8678c3412f85add4d65d9c47e1a5ea5",
+      "target_chunk_id": "apigraph:validation:monthly:2015-11:2e225499df7a5d746d99",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 85.77899167002673,
+        "estimated_fp": 18.221008329973266,
+        "estimated_fn": 219.58627949031776,
+        "estimated_tn": 4651.413720509682,
+        "estimated_recall": 0.28090617948818736,
+        "estimated_f1": 0.4190828959520013,
+        "estimated_accuracy": 0.9521995401366249,
+        "estimated_loss": 237.80728782029104,
+        "estimated_loss_per_app": 0.04780045986337508,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 64,
+        "seed": 37,
+        "observed_month": "2015-11",
+        "decision_available_from_month": "2015-12",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4975,
+        "n_source": 107053,
+        "member_hash": "88d6018c68b6beb6bce89d00e67f5a5dbae2667f83304a6f75654da2db086dd8",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "e5049df502877ee553b842da34ded57df234a9fa62a47deff00fc8e49f9f1139",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:08.047740+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "b624916e1dfc4e45ad9e0765606cb1eeb9451dc6c9b3730aaac6de373fdd77e6",
+      "target_chunk_id": "apigraph:validation:monthly:2015-11:2e225499df7a5d746d99",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 84.74035299471342,
+        "estimated_fp": 19.25964700528659,
+        "estimated_fn": 236.3034057534034,
+        "estimated_tn": 4634.696594246597,
+        "estimated_recall": 0.26395265656355166,
+        "estimated_f1": 0.398737077068486,
+        "estimated_accuracy": 0.9486305421590573,
+        "estimated_loss": 255.56305275869,
+        "estimated_loss_per_app": 0.05136945784094271,
+        "dre_auc": 0.8998316451767344,
+        "ess_ratio": 0.12436872348249621,
+        "max_weight": 20.0,
+        "clip_fraction": 0.0584850494614817
+      },
+      "provenance": {
+        "csv_row_index": 65,
+        "seed": 37,
+        "observed_month": "2015-11",
+        "decision_available_from_month": "2015-12",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4975,
+        "n_source": 107053,
+        "member_hash": "88d6018c68b6beb6bce89d00e67f5a5dbae2667f83304a6f75654da2db086dd8",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "31aa17afdfc8668458db84b099d89d0ab801f18926d7ab75dc01d88eaf67aa0e",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:30.436564+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "c367204010ec2214f01d8b77c24fbc63b04223d71de9eb732e9490043b9ca0aa",
+      "target_chunk_id": "apigraph:validation:monthly:2015-12:04c8f17b759c9cbddb4e",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 108.32626377102605,
+        "estimated_fp": 24.673736228973958,
+        "estimated_fn": 241.63839041034748,
+        "estimated_tn": 4595.361609589652,
+        "estimated_recall": 0.3095348700982946,
+        "estimated_f1": 0.44858878525857915,
+        "estimated_accuracy": 0.946416071098728,
+        "estimated_loss": 266.31212663932143,
+        "estimated_loss_per_app": 0.05358392890127192,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 66,
+        "seed": 11,
+        "observed_month": "2015-12",
+        "decision_available_from_month": "2016-01",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4970,
+        "n_source": 107053,
+        "member_hash": "98bdaa0fe0e923252890b41456da9b8c7925c33556d8c20d859214d6599cff96",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "0fa745da080a88277d41d87af91f8a0ac293c743d592f988fa2d56c82f5e006d",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:15.032720+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "71ae1dbc1aa84d7091bde707a7d25ce35fa68fe8c2379c795ecae990bc90b967",
+      "target_chunk_id": "apigraph:validation:monthly:2015-12:04c8f17b759c9cbddb4e",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 109.27533153440753,
+        "estimated_fp": 23.72466846559247,
+        "estimated_fn": 258.24619065988315,
+        "estimated_tn": 4578.753809340117,
+        "estimated_recall": 0.29733042811201404,
+        "estimated_f1": 0.4366458850973821,
+        "estimated_accuracy": 0.9432654206990995,
+        "estimated_loss": 281.9708591254756,
+        "estimated_loss_per_app": 0.05673457930090053,
+        "dre_auc": 0.9231294121568414,
+        "ess_ratio": 0.11148478026461955,
+        "max_weight": 20.0,
+        "clip_fraction": 0.07661625549961235
+      },
+      "provenance": {
+        "csv_row_index": 67,
+        "seed": 11,
+        "observed_month": "2015-12",
+        "decision_available_from_month": "2016-01",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4970,
+        "n_source": 107053,
+        "member_hash": "98bdaa0fe0e923252890b41456da9b8c7925c33556d8c20d859214d6599cff96",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "2920d30b56dd86689c8c1554f85d629fe2ee1dd7ae91848f54ba5fe730eeb53b",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:38.460288+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "c0e66363b3ee36fb13ab4780ea005bcd52656a3b573fe472f08199f7b707ee50",
+      "target_chunk_id": "apigraph:validation:monthly:2015-12:04c8f17b759c9cbddb4e",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 108.32626377102605,
+        "estimated_fp": 24.673736228973958,
+        "estimated_fn": 241.63839041034748,
+        "estimated_tn": 4595.361609589652,
+        "estimated_recall": 0.3095348700982946,
+        "estimated_f1": 0.44858878525857915,
+        "estimated_accuracy": 0.946416071098728,
+        "estimated_loss": 266.31212663932143,
+        "estimated_loss_per_app": 0.05358392890127192,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 68,
+        "seed": 23,
+        "observed_month": "2015-12",
+        "decision_available_from_month": "2016-01",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4970,
+        "n_source": 107053,
+        "member_hash": "98bdaa0fe0e923252890b41456da9b8c7925c33556d8c20d859214d6599cff96",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "39d05fe51962d23af63df20de0733da7f4cafb445e8d73fc54d55c1c901a3559",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:20.146157+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "f196391e2099400561132af4c05089bccbe1489b6bcc59fd5ee1ab8130194979",
+      "target_chunk_id": "apigraph:validation:monthly:2015-12:04c8f17b759c9cbddb4e",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 107.91446645395125,
+        "estimated_fp": 25.085533546048744,
+        "estimated_fn": 249.25932061792827,
+        "estimated_tn": 4587.740679382072,
+        "estimated_recall": 0.3021343400887198,
+        "estimated_f1": 0.44031104600102405,
+        "estimated_accuracy": 0.9447998281360207,
+        "estimated_loss": 274.344854163977,
+        "estimated_loss_per_app": 0.055200171863979276,
+        "dre_auc": 0.92296995999583,
+        "ess_ratio": 0.11045846953356184,
+        "max_weight": 20.0,
+        "clip_fraction": 0.09306605139510336
+      },
+      "provenance": {
+        "csv_row_index": 69,
+        "seed": 23,
+        "observed_month": "2015-12",
+        "decision_available_from_month": "2016-01",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4970,
+        "n_source": 107053,
+        "member_hash": "98bdaa0fe0e923252890b41456da9b8c7925c33556d8c20d859214d6599cff96",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "8a7d851664bb0fcf755f785c45b78a9df07c2b85c21104e3fccb58caa77ab137",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:43.028772+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "748916f8f4d8e0fdf72ebdb125fd2238020720e6844a8ae9aeceddbedf44e19a",
+      "target_chunk_id": "apigraph:validation:monthly:2015-12:04c8f17b759c9cbddb4e",
+      "input_variant": "all_binary__uniform",
+      "features": {
+        "estimated_tp": 108.32626377102605,
+        "estimated_fp": 24.673736228973958,
+        "estimated_fn": 241.63839041034748,
+        "estimated_tn": 4595.361609589652,
+        "estimated_recall": 0.3095348700982946,
+        "estimated_f1": 0.44858878525857915,
+        "estimated_accuracy": 0.946416071098728,
+        "estimated_loss": 266.31212663932143,
+        "estimated_loss_per_app": 0.05358392890127192,
+        "dre_auc": null,
+        "ess_ratio": 1.0,
+        "max_weight": 1.0,
+        "clip_fraction": 0.0
+      },
+      "provenance": {
+        "csv_row_index": 70,
+        "seed": 37,
+        "observed_month": "2015-12",
+        "decision_available_from_month": "2016-01",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4970,
+        "n_source": 107053,
+        "member_hash": "98bdaa0fe0e923252890b41456da9b8c7925c33556d8c20d859214d6599cff96",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "61f257dd443619efef617ae91e9849d650e1637be7aa47078aacbadcfbd462f1",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:25.077522+00:00"
+      },
+      "readiness": {
+        "status": "no_diagnostic_flags",
+        "warnings": [],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    },
+    {
+      "record_id": "8e47d8a3effae0869d52870ff4ffb3dbc5ccbf543b1d6d101b216a292311608c",
+      "target_chunk_id": "apigraph:validation:monthly:2015-12:04c8f17b759c9cbddb4e",
+      "input_variant": "all_binary__dre",
+      "features": {
+        "estimated_tp": 108.48062579959998,
+        "estimated_fp": 24.519374200400026,
+        "estimated_fn": 274.902359584178,
+        "estimated_tn": 4562.097640415823,
+        "estimated_recall": 0.2829562863646846,
+        "estimated_f1": 0.4201556940106256,
+        "estimated_accuracy": 0.939754178312962,
+        "estimated_loss": 299.421733784578,
+        "estimated_loss_per_app": 0.06024582168703783,
+        "dre_auc": 0.9207192157562223,
+        "ess_ratio": 0.11313147243282573,
+        "max_weight": 20.0,
+        "clip_fraction": 0.08677010452766387
+      },
+      "provenance": {
+        "csv_row_index": 71,
+        "seed": 37,
+        "observed_month": "2015-12",
+        "decision_available_from_month": "2016-01",
+        "target_role": "validation",
+        "mode": "monthly",
+        "n_target": 4970,
+        "n_source": 107053,
+        "member_hash": "98bdaa0fe0e923252890b41456da9b8c7925c33556d8c20d859214d6599cff96",
+        "model_hash": "fd463badc8580d9296edaab9818186a76c3f7dd579b9166a314994792b031813",
+        "threshold_policy_hash": "672a9cde3422f84e73ccb3592578e4896b754109796eb42f8a1416dd3bf0d85e",
+        "source_manifest_hash": "5248d5481bbb217c9cb8eae00d964bdb87d1e9b9feeeb69e1fb61bc3058e1c72",
+        "source_version": "validation_2013_2014",
+        "source_period": [
+          "2013-01",
+          "2014-12"
+        ],
+        "source_available_from_month": "2015-01",
+        "config_hash": "28cf6118b72a0423df158648bd5bc4615a955ab1ba1f7a1d0adf15c34ace53ca",
+        "code_revision": "b36e2147a5356d6037562b38bade7c9da988917b5aecd8887e59e156b5629c2c",
+        "executed_at": "2026-11-02T14:19:45.668913+00:00"
+      },
+      "readiness": {
+        "status": "requires_review",
+        "warnings": [
+          "low_effective_sample_size"
+        ],
+        "accuracy_guaranteed": false,
+        "policy_action": null
+      },
+      "metric_defined": {
+        "recall": true,
+        "f1": true,
+        "accuracy": true
+      },
+      "label_derived_oracle": false
+    }
+  ],
+  "feature_columns": [
+    "estimated_tp",
+    "estimated_fp",
+    "estimated_fn",
+    "estimated_tn",
+    "estimated_recall",
+    "estimated_f1",
+    "estimated_accuracy",
+    "estimated_loss",
+    "estimated_loss_per_app",
+    "dre_auc",
+    "ess_ratio",
+    "max_weight",
+    "clip_fraction"
+  ],
+  "matrix_label_order": [
+    0,
+    1
+  ],
+  "decision_timing": "after_month_close_for_next_month",
+  "loss_definition": {
+    "lambda_fn": 1.0,
+    "lambda_fp": 1.0,
+    "status": "research_reference_not_company_cost"
+  },
+  "retrain_decision_generated": false,
+  "gain_targets_generated": false,
+  "aggregation": "per_seed_no_pooling",
+  "synthetic_fixture": false
+}

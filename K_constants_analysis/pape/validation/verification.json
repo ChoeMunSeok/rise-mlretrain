@@ -1,0 +1,17 @@
+{
+  "handoff": {
+    "status": "PASS",
+    "rows": 72,
+    "safe_inputs_without_actual_labels": true,
+    "matrix_axes": "true_by_predicted_0_1"
+  },
+  "status": "PASS",
+  "rows_checked": 72,
+  "csv_columns": 14,
+  "target_role": "validation",
+  "synthetic_fixture": false,
+  "frozen_scores_predictions_and_membership_verified": true,
+  "target_labels_used_in_estimator": false,
+  "final_test_evaluated": false,
+  "partial_validation": false
+}
